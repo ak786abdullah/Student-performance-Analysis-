@@ -21,8 +21,6 @@ As a Mathematics teacher, I am interested in understanding patterns in student p
 ## Technologies Used
 * **Python**: Core programming.
 * **Pandas**: Data manipulation and cleaning (handling missing values, calculating percentages).
-* **NumPy**: Numerical operations.
-
 ## How to Run
 1. Clone the repository.
 2. Install requirements: `pip install pandas numpy`
