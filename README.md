@@ -11,7 +11,6 @@ This project is a data analysis workflow built with Python to process raw studen
 ##  Tech Stack
 * **Python**
 * **Pandas** (Data manipulation and analysis)
-* **Matplotlib** (Data visualization)
 
 ##  Data Processing Workflow
 
@@ -46,6 +45,6 @@ Two new columns were generated to standardize performance metrics:
 3.  Open and run `Student_Performance_EDA.ipynb`.
 4.  The script will generate the cleaned dataset: `cleaned_student_performance.csv`.
 
-## 📜 License
+##  License
 This project is open-source and available for educational purposes.
 
