@@ -1,4 +1,4 @@
-# Student Performance Analysis 📊
+# Student Performance Analysis 
 
 ## Project Overview
 As a Mathematics teacher, I am interested in understanding patterns in student performance. This project analyzes a dataset of **1,983 student records** to determine how different grade levels (6th, 7th, 8th) perform and identifying grade distributions.
