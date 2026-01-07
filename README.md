@@ -1,26 +1,29 @@
 # Student Performance Analysis 📊
 
-## Overview
-As a Mathematics educator with a background in 6th-8th grade instruction, I analyzed a dataset of student exam scores to understand performance trends across different grade levels. This project explores grading patterns, calculates percentages from raw scores, and segments students based on performance metrics.
+## Project Overview
+As a Mathematics teacher, I am interested in understanding patterns in student performance. This project analyzes a dataset of **1,983 student records** to determine how different grade levels (6th, 7th, 8th) perform and identifying grade distributions.
 
-## 🎯 Objectives
-- Clean raw exam data (handling missing values and duplicates).
-- Engineer features such as `Percentage` and letter `Grades` based on performance.
-- Perform exploratory data analysis (EDA) to compare performance between 6th, 7th, and 8th grades.
+## Objectives
+* Clean raw student exam data using **Python** and **Pandas**.
+* Perform Exploratory Data Analysis (EDA) to understand pass/fail rates.
+* Visualize grade distributions to assist in educational decision-making.
 
-## 🛠 Tools Used
-- **Python**: Core language.
-- **Pandas**: Data manipulation and cleaning.
-- **Jupyter Notebook**: Interactive analysis.
+## Key Insights
+* **Dataset Size:** 1,983 students.
+* **Average Performance:** The overall average score was **73.2%**.
+* **Grade Distribution:**
+    * **A:** 526 students
+    * **B:** 537 students
+    * **C:** 569 students
+    * **F:** 351 students
+* **Class Balance:** The dataset is evenly distributed across 6th, 7th, and 8th grades.
 
-## 🔍 Key Insights
-- **Grade 8** showed the highest average performance (~74%), slightly outperforming Grades 6 and 7.
-- Analysis of grade distribution highlights areas where student support is most needed (high volume of lower-tier grades).
+## Technologies Used
+* **Python**: Core programming.
+* **Pandas**: Data manipulation and cleaning (handling missing values, calculating percentages).
+* **NumPy**: Numerical operations.
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository.
-2. Install dependencies: `pip install pandas numpy`
-3. Run the Jupyter Notebook: `Student_Performance_EDA.ipynb`
-
-## 👨‍🏫 About Me
-I am a Mathematics graduate and educator transitioning into Data Science. My background in teaching allows me to approach data with a focus on actionable insights and real-world impact.
+2. Install requirements: `pip install pandas numpy`
+3. Open `notebooks/Student_Performance_EDA.ipynb` in Jupyter Notebook.
