@@ -1,19 +1,19 @@
 # Student Performance Analysis & Grading Automation
 
-## 📌 Project Overview
+##  Project Overview
 This project is a data analysis workflow built with Python to process raw student exam scores. It automates the data cleaning process, calculates performance metrics (percentages and grades), and generates statistical insights into student performance across different grade levels.
 
-## 📂 Files Description
+##  Files Description
 * **`Student_Performance_EDA.ipynb`**: The main Jupyter Notebook containing the Python code for data loading, cleaning, feature engineering, and analysis.
 * **`student_exam_scores.csv`**: The raw dataset containing original student records (Name, Class, Total Marks, Obtained Marks).
 * **`cleaned_student_performance.csv`**: The processed output file containing cleaned data with added `Percentage` and `Grade` columns.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Python**
 * **Pandas** (Data manipulation and analysis)
 * **Matplotlib** (Data visualization)
 
-## ⚙️ Data Processing Workflow
+##  Data Processing Workflow
 
 ### 1. Data Cleaning
 The raw dataset (`student_exam_scores.csv`) initially contained **2,050** records. The cleaning process involved:
@@ -32,12 +32,12 @@ Two new columns were generated to standardize performance metrics:
     * **C**: 60% ≤ Percentage < 65%
     * **Fail**: Percentage < 60%
 
-## 📊 Key Insights
+## Key Insights
 * **Overall Performance:** The average percentage across all students is **73.2%**.
 * **Top Performing Class:** The **8th Grade** achieved the highest average performance (**74.1%**).
 * **Grade Distribution:** The majority of students achieved an **'A'** grade (1,063 students), while **527** students fell into the 'Fail' category, highlighting areas for potential academic intervention.
 
-## 🚀 How to Run
+##  How to Run
 1.  Ensure you have Python and the required libraries installed:
     ```bash
     pip install pandas matplotlib
