@@ -11,7 +11,6 @@ As a Mathematics educator with a background in 6th-8th grade instruction, I anal
 ## 🛠 Tools Used
 - **Python**: Core language.
 - **Pandas**: Data manipulation and cleaning.
-- **NumPy**: Numerical operations.
 - **Jupyter Notebook**: Interactive analysis.
 
 ## 🔍 Key Insights
